@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+}
+a{
+    display: block;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .left{
+    width: 192px;
+    display: flex;
+}
+.header .left .brand img{
+    width: 100%;
+}
+.show-hidden-menu-btn{
+    background: #fff;
+    border: none;
+}
+.show-hidden-menu-btn .line{
+    width: 22px;
+    height: 3px;
+    background-color: #969495;
+    display: block;
+    border-radius: 1px;
+    margin-bottom: 4px;
+}
+.header .help{
+    color: #969495;
+    text-decoration: none;
+    font-size: 17px;
+}
+.header .help i{
+    font-size: 13px;
+    color: #45c3d2;
+}
+.header .center ul{
+    padding: 0;
+    margin-right: 138px;
+}
+.header .center ul li{
+    display: inline-block;
+}
+.header .center ul li a{
+    color: #333;
+    font-size: 20px;
+    padding: 0 12px;
+    text-decoration: none;
+}
+.header .center ul li a h6{
+    margin: 0;
+}
+.header .center ul li a p{
+    color: #333;
+    font-size: 13px;
+    font-weight: lighter;
+    margin: 0;
+}
+/* HEADER */
+
+/* FOOTER */
+footer .row1{
+    background: #efefef;
+    padding: 30px 0;
+}
+footer .row1a{
+    display: flex;
+    justify-content: space-between;
+}
+footer .row1a .brand img{
+    max-width: 200px;
+}
+footer .row1a h6{
+    font-size: 16px;
+    margin: 10px 0;
+}
+footer .row1a p{
+    margin: 5px 0;
+}
+footer .chungnhan-bocongthuong img{
+    height: 80px;
+    margin: 10px 0;
+}
+footer .row1a p i{
+    font-size: 13px;
+}
+footer .row1a ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer .row1 ul li a{
+    text-decoration: none;
+    color: #45c3d2;
+    padding-bottom: 14px;
+    font-size: 17px;
+}
+footer .row1b{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+footer .row1b p{
+    margin: 0 7px;
+}
+footer .row1b a{
+    text-decoration: none;
+    color: #45c3d2;
+    font-size: 17px;
+}
+footer .row1b span{
+    margin: 0 3px;
+}
+footer .row2{
+    background: #64b9e5;
+    color: #fff;
+    padding: 10px;
+}
+footer .row2a{
+    display: flex;
+    justify-content: space-between;
+}
+footer .row2a p{
+    margin-top: 5px;
+}
+footer .row2a ul{
+    padding: 0;
+    margin-top: 5px;
+}
+footer .row2a ul li{
+    display: inline-block;
+}
+footer .row2a ul a{
+    width: 32px;
+    margin: 0 10px 10px 0;
+}
+footer .row2a ul a img{
+    width: 100%;
+}
+/* END OF FOOTER */
