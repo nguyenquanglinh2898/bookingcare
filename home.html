@@ -50,7 +50,451 @@
         </div>
     </header>
     <div class="main">
-        main
+        <div class="search">
+            <div class="search-bg">
+                <div class="search-engine">
+                    <h1>NỀN TẢNG ĐẶT KHÁM CHUYÊN KHOA</h1>
+                    <form action="">
+                        <i class="fa fa-search"></i>
+                        <input type="text" name="search-key" placeholder="Tìm bệnh viện/ bác sĩ/ phòng khám/ lý do khám/ gói khám">
+                    </form>
+                </div>
+            </div>
+            <div class="benifit-bg">
+                <div class="benifit">
+                    <ul>
+                        <li>
+                            <i class="fa fa-check"></i>
+                            <h6>Bệnh viện lớn</h6>
+                        </li>
+                        <li>
+                            <i class="fas fa-thumbs-up"></i>
+                            <h6>Phòng khám tốt</h6>
+                        </li>
+                        <li>
+                            <i class="fa fa-user"></i>
+                            <h6>Bác sĩ giỏi</h6>
+                        </li>
+                        <li>
+                            <i class="fa fa-clock"></i>
+                            <h6>Khám ưu tiên</h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="chuyenkhoaphobien main-bg">
+            <div class="container">
+                <h2>Chuyên khoa phổ biến</h2>
+                <button class="all">tất cả chuyên khoa</button>
+                <div class="quarter-slider">
+                    <button class="slide-prev-btn fas fa-angle-left" onclick="quarterSilderPrev(0)"></button>
+                    <div class="list">
+                        <ul class="ul-list">
+                            <li><a href="#" class="coxuongkhop">
+                                <div class="bg"></div>
+                                <h3>cơ-xương-khớp</h3>   
+                            </a></li>
+                            <li><a href="#" class="thankinh">
+                                <div class="bg"></div>
+                                <h3>thần kinh</h3>   
+                            </a></li>
+                            <li><a href="#" class="tieuhoa">
+                                <div class="bg"></div>
+                                <h3>tiêu hóa</h3>   
+                            </a></li>
+                            <li><a href="#" class="timmach">
+                                <div class="bg"></div>
+                                <h3>tim mạch</h3>   
+                            </a></li>
+                            <li><a href="#" class="taimuihong">
+                                <div class="bg"></div>
+                                <h3>tai mũi họng</h3>   
+                            </a></li>
+                            <li><a href="#" class="benhcotsong">
+                                <div class="bg"></div>
+                                <h3>bệnh cột sống</h3>   
+                            </a></li>
+                            <li><a href="#" class="yhoccotruyen">
+                                <div class="bg"></div>
+                                <h3>y học cổ truyền</h3>   
+                            </a></li>
+                            <li><a href="#" class="chamcuu">
+                                <div class="bg"></div>
+                                <h3>châm cứu</h3>   
+                            </a></li>
+                            <li><a href="#" class="sanphukhoa">
+                                <div class="bg"></div>
+                                <h3>sản phụ khoa</h3>   
+                            </a></li>
+                            <li><a href="#" class="sieuamthai">
+                                <div class="bg"></div>
+                                <h3>siêu âm thai</h3>   
+                            </a></li>
+                            <li><a href="#" class="nhikhoa">
+                                <div class="bg"></div>
+                                <h3>nhi khoa</h3>   
+                            </a></li>
+                            <li><a href="#" class="dalieu">
+                                <div class="bg"></div>
+                                <h3>da liễu</h3>   
+                            </a></li>
+                            <li><a href="#" class="benhviemgan">
+                                <div class="bg"></div>
+                                <h3>bệnh viêm gan</h3>   
+                            </a></li>
+                            <li><a href="#" class="roiloangiacngu">
+                                <div class="bg"></div>
+                                <h3>rối loạn giấc ngủ</h3>   
+                            </a></li>
+                            <li><a href="#" class="diungmiendich">
+                                <div class="bg"></div>
+                                <h3>dị ứng miễn dịch</h3>   
+                            </a></li>
+                            <li><a href="#" class="namhoc">
+                                <div class="bg"></div>
+                                <h3>nam học</h3>   
+                            </a></li>
+                            <li><a href="#" class="chuyenkhoamat">
+                                <div class="bg"></div>
+                                <h3>chuyên khoa mắt</h3>   
+                            </a></li>
+                            <li><a href="#" class="thantietnieu">
+                                <div class="bg"></div>
+                                <h3>thận - tiết niệu</h3>   
+                            </a></li>
+                            <li><a href="#" class="noikhoa">
+                                <div class="bg"></div>
+                                <h3>nội khoa</h3>   
+                            </a></li>
+                            <li><a href="#" class="khamtongquat">
+                                <div class="bg"></div>
+                                <h3>khám tổng quát</h3>   
+                            </a></li>
+                            <li><a href="#" class="nhakhoa">
+                                <div class="bg"></div>
+                                <h3>nha khoa</h3>   
+                            </a></li>
+                            <li><a href="#" class="tieuduongnoitiet">
+                                <div class="bg"></div>
+                                <h3>tiểu đường - nội tiết</h3>   
+                            </a></li>
+                            <li><a href="#" class="phuchoichucnang">
+                                <div class="bg"></div>
+                                <h3>phục hồi chức năng</h3>   
+                            </a></li>
+                            <li><a href="#" class="chupconghuongtu">
+                                <div class="bg"></div>
+                                <h3>chụp cộng hưởng từ</h3>   
+                            </a></li>
+                            <li><a href="#" class="chupcatlopvitinh">
+                                <div class="bg"></div>
+                                <h3>chụp cắt lớp vi tính</h3>   
+                            </a></li>
+                            <li><a href="#" class="noisoitieuhoa">
+                                <div class="bg"></div>
+                                <h3>nội soi tiêu hóa</h3>   
+                            </a></li>
+                            <li><a href="#" class="chuppetct">
+                                <div class="bg"></div>
+                                <h3>chụp pet/ct</h3>   
+                            </a></li>
+                            <li><a href="#" class="ungbuou">
+                                <div class="bg"></div>
+                                <h3>ung bướu</h3>   
+                            </a></li>
+                            <li><a href="#" class="bacsigiadinh">
+                                <div class="bg"></div>
+                                <h3>bác sĩ gia đình</h3>   
+                            </a></li>
+                            <li><a href="#" class="taohinhhammat">
+                                <div class="bg"></div>
+                                <h3>tạo hình hàm mặt</h3>   
+                            </a></li>
+                        </ul>
+                    </div>
+                    <button class="slide-next-btn fas fa-angle-right" onclick="quarterSilderNext(0,26)"></button>
+                </div>
+            </div>
+        </div>
+        <div class="benhvienphongkhamhangdau main-bg">
+            <div class="container">
+                <h2>Bệnh viện & phòng khám hàng đầu</h2>
+                <button class="all">tất cả cơ sở y tế</button>
+                <div class="quarter-slider">
+                    <button class="slide-prev-btn fas fa-angle-left" onclick="quarterSilderPrev(1)"></button>
+                    <div class="list">
+                        <ul class="ul-list">
+                            <li><a href="#" class="anviet">
+                                <div class="bg"></div>
+                                <h3>bệnh viện đa khoa an việt</h3>   
+                            </a></li>
+                            <li><a href="#" class="baoson2">
+                                <div class="bg"></div>
+                                <h3>bệnh viện đa khoa bảo sơn 2</h3>   
+                            </a></li>
+                            <li><a href="#" class="vietduc">
+                                <div class="bg"></div>
+                                <h3>bệnh viện hữu nghị việt đức</h3>   
+                            </a></li>
+                            <li><a href="#" class="vietlife">
+                                <div class="bg"></div>
+                                <h3>phòng khám vietlife mri trần bình trọng</h3>   
+                            </a></li>
+                            <li><a href="#" class="nhietdoitrunguong">
+                                <div class="bg"></div>
+                                <h3>bệnh viện nhiệt đới trung ương</h3>   
+                            </a></li>
+                            <li><a href="#" class="laokhoatrunguong">
+                                <div class="bg"></div>
+                                <h3>bệnh viện lão khoa trung ương</h3>   
+                            </a></li>
+                            <li><a href="#" class="dakhoadongdo">
+                                <div class="bg"></div>
+                                <h3>bệnh viện đa khoa đông đô</h3>   
+                            </a></li>
+                            <li><a href="#" class="meditec">
+                                <div class="bg"></div>
+                                <h3>bệnh viện đa khoa meditec</h3>   
+                            </a></li>
+                            <li><a href="#" class="daodinhthi">
+                                <div class="bg"></div>
+                                <h3>phòng khám bác sĩ đào đình thi</h3>   
+                            </a></li>
+                            <li><a href="#" class="225truongchinh">
+                                <div class="bg"></div>
+                                <h3>phòng khám 225 trường chinh</h3>   
+                            </a></li>
+                            <li><a href="#" class="hoanglong">
+                                <div class="bg"></div>
+                                <h3>phòng khám đa khoa hoàng long</h3>   
+                            </a></li>
+                        </ul>
+                    </div>
+                    <button class="slide-next-btn fas fa-angle-right" onclick="quarterSilderNext(1,8)"></button>
+                </div>
+            </div>
+        </div>
+        <div class="bacsinoibat main-bg">
+            <div class="container">
+                <h2>Bác sĩ nổi bật</h2>
+                <button class="all">tất cả bác sĩ</button>
+                <div class="quarter-slider">
+                    <button class="slide-prev-btn fas fa-angle-left" onclick="quarterSilderPrev(2)"></button>
+                    <div class="list">
+                        <ul class="ul-list">
+                            <li><a href="#" class="nguyenthihoaian">
+                                <img src="image/090559-pgs-nguyen-thi-hoai-an.jpg" alt="090559-pgs-nguyen-thi-hoai-an">
+                                <h3>PGs.Ts. Nguyễn Thị Hoài An</h3>   
+                                <h4>tai mũi họng - nhi khoa</h4>
+                                <span>5929 lượt đặt</span>
+                            </a></li>
+                            <li><a href="#" class="nguyenthihoaian">
+                                <img src="image/090559-pgs-nguyen-thi-hoai-an.jpg" alt="090559-pgs-nguyen-thi-hoai-an">
+                                <h3>PGs.Ts. Nguyễn Thị Hoài An</h3>   
+                                <h4>tai mũi hong - nhi khoa</h4>
+                                <span>5929 lượt đặt</span>
+                            </a></li>
+                            <li><a href="#" class="nguyenthihoaian">
+                                <img src="image/090559-pgs-nguyen-thi-hoai-an.jpg" alt="090559-pgs-nguyen-thi-hoai-an">
+                                <h3>PGs.Ts. Nguyễn Thị Hoài An</h3>   
+                                <h4>tai mũi hong - nhi khoa</h4>
+                                <span>5929 lượt đặt</span>
+                            </a></li>
+                            <li><a href="#" class="nguyenthihoaian">
+                                <img src="image/090559-pgs-nguyen-thi-hoai-an.jpg" alt="090559-pgs-nguyen-thi-hoai-an">
+                                <h3>PGs.Ts. Nguyễn Thị Hoài An</h3>   
+                                <h4>tai mũi hong - nhi khoa</h4>
+                                <span>5929 lượt đặt</span>
+                            </a></li>
+                            <li><a href="#" class="nguyenthihoaian">
+                                <img src="image/090559-pgs-nguyen-thi-hoai-an.jpg" alt="090559-pgs-nguyen-thi-hoai-an">
+                                <h3>PGs.Ts. Nguyễn Thị Hoài An</h3>   
+                                <h4>tai mũi hong - nhi khoa</h4>
+                                <span>5929 lượt đặt</span>
+                            </a></li>
+                            <li><a href="#" class="nguyenthihoaian">
+                                <img src="image/090559-pgs-nguyen-thi-hoai-an.jpg" alt="090559-pgs-nguyen-thi-hoai-an">
+                                <h3>PGs.Ts. Nguyễn Thị Hoài An</h3>   
+                                <h4>tai mũi hong - nhi khoa</h4>
+                                <span>5929 lượt đặt</span>
+                            </a></li>
+                            <li><a href="#" class="nguyenthihoaian">
+                                <img src="image/090559-pgs-nguyen-thi-hoai-an.jpg" alt="090559-pgs-nguyen-thi-hoai-an">
+                                <h3>PGs.Ts. Nguyễn Thị Hoài An</h3>   
+                                <h4>tai mũi hong - nhi khoa</h4>
+                                <span>5929 lượt đặt</span>
+                            </a></li>
+                            <li><a href="#" class="nguyenthihoaian">
+                                <img src="image/090559-pgs-nguyen-thi-hoai-an.jpg" alt="090559-pgs-nguyen-thi-hoai-an">
+                                <h3>PGs.Ts. Nguyễn Thị Hoài An</h3>   
+                                <h4>tai mũi hong - nhi khoa</h4>
+                                <span>5929 lượt đặt</span>
+                            </a></li>
+                            <li><a href="#" class="nguyenthihoaian">
+                                <img src="image/090559-pgs-nguyen-thi-hoai-an.jpg" alt="090559-pgs-nguyen-thi-hoai-an">
+                                <h3>PGs.Ts. Nguyễn Thị Hoài An</h3>   
+                                <h4>tai mũi hong - nhi khoa</h4>
+                                <span>5929 lượt đặt</span>
+                            </a></li>
+                            <li><a href="#" class="nguyenthihoaian">
+                                <img src="image/090559-pgs-nguyen-thi-hoai-an.jpg" alt="090559-pgs-nguyen-thi-hoai-an">
+                                <h3>PGs.Ts. Nguyễn Thị Hoài An</h3>   
+                                <h4>tai mũi hong - nhi khoa</h4>
+                                <span>5929 lượt đặt</span>
+                            </a></li>
+                            <li><a href="#" class="nguyenthihoaian">
+                                <img src="image/090559-pgs-nguyen-thi-hoai-an.jpg" alt="090559-pgs-nguyen-thi-hoai-an">
+                                <h3>PGs.Ts. Nguyễn Thị Hoài An</h3>   
+                                <h4>tai mũi hong - nhi khoa</h4>
+                                <span>5929 lượt đặt</span>
+                            </a></li>
+                            <li><a href="#" class="nguyenthihoaian">
+                                <img src="image/090559-pgs-nguyen-thi-hoai-an.jpg" alt="090559-pgs-nguyen-thi-hoai-an">
+                                <h3>PGs.Ts. Nguyễn Thị Hoài An</h3>   
+                                <h4>tai mũi hong - nhi khoa</h4>
+                                <span>5929 lượt đặt</span>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <button class="slide-next-btn fas fa-angle-right" onclick="quarterSilderNext(2,8)"></button>
+                </div>
+            </div>
+        </div>
+        <div class="camnang main-bg">
+            <div class="container">
+                <h2>Cẩm nang</h2>
+                <button class="all">tất cả bài viết</button>
+                <div class="quarter-slider">
+                    <button class="slide-prev-btn fas fa-angle-left" onclick="halfSilderPrev(3)"></button>
+                    <div class="list">
+                        <ul class="ul-list">
+                            <li><a href="#" class="6diachichuaviemxoang">
+                                <img src="image/082902-bia-dia-chi-chua-viem-xoang-hn-01-01.jpg" alt="082902-bia-dia-chi-chua-viem-xoang-hn-01-01">
+                                <div class="content">
+                                    <h3>6 địa chỉ chữa Viêm xoang bằng Đông y tốt tại Hà Nội</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A eveniet, rerum fugiat tenetur nostrum dicta veniam praesentium illum dolorem perferendis consectetur deserunt accusantium enim, voluptatibus maxime magnam mollitia autem alias!</p>
+                                </div>
+                            </a></li>
+                            <li><a href="#" class="6diachichuaviemxoang">
+                                <img src="image/082902-bia-dia-chi-chua-viem-xoang-hn-01-01.jpg" alt="082902-bia-dia-chi-chua-viem-xoang-hn-01-01">
+                                <div class="content">
+                                    <h3>6 địa chỉ chữa Viêm xoang bằng Đông y tốt tại Hà Nội</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A eveniet, rerum fugiat tenetur nostrum dicta veniam praesentium illum dolorem perferendis consectetur deserunt accusantium enim, voluptatibus maxime magnam mollitia autem alias!</p>
+                                </div>
+                            </a></li>
+                            <li><a href="#" class="6diachichuaviemxoang">
+                                <img src="image/082902-bia-dia-chi-chua-viem-xoang-hn-01-01.jpg" alt="082902-bia-dia-chi-chua-viem-xoang-hn-01-01">
+                                <div class="content">
+                                    <h3>6 địa chỉ chữa Viêm xoang bằng Đông y tốt tại Hà Nội</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A eveniet, rerum fugiat tenetur nostrum dicta veniam praesentium illum dolorem perferendis consectetur deserunt accusantium enim, voluptatibus maxime magnam mollitia autem alias!</p>
+                                </div>
+                            </a></li>
+                            <li><a href="#" class="6diachichuaviemxoang">
+                                <img src="image/082902-bia-dia-chi-chua-viem-xoang-hn-01-01.jpg" alt="082902-bia-dia-chi-chua-viem-xoang-hn-01-01">
+                                <div class="content">
+                                    <h3>6 địa chỉ chữa Viêm xoang bằng Đông y tốt tại Hà Nội</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A eveniet, rerum fugiat tenetur nostrum dicta veniam praesentium illum dolorem perferendis consectetur deserunt accusantium enim, voluptatibus maxime magnam mollitia autem alias!</p>
+                                </div>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <button class="slide-next-btn fas fa-angle-right" onclick="halfSilderNext(3,2)"></button>
+                </div>
+            </div>
+        </div>
+        <div class="truyenthongnoivebookingcare main-bg">
+            <div class="container">
+                <h2>Truyền thông nói về BookingCare</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/z3iCp7U_fZo" frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <ul class="channel">
+                    <li><a href="#"><img src="image/suckhoedoisong.png" alt="" title="Báo sức khỏe đời sống nói về BookingCare" width="142px"></a></li>
+                    <li><a href="#"><img src="image/vtv1.png" alt="" title="VTV1 - Cà phê khởi nghiệp 14-11-2018" width="86px"></a></li>
+                    <li><a href="#"><img src="image/ictnews.png" alt="" title="Báo điện tử ictnews giới thiệu BookingCare" width="107px"></a></li>
+                    <li><a href="#"><img src="image/vnexpress.png" alt="" title="VnExpress nói về BookingCare" width="163px"></a></li>
+                    <li><a href="#" class="vtcnews"><img src="image/vtcnews.png" alt="" title="VTC News nói về BookingCare" width="131px"></a></li>
+                    <li><a href="#"><img src="image/cuc-cong-nghe-thong-tin-bo-y-te-2.png" alt="" title="Cục Công nghệ thông tin - Bộ Y tế nói về BookingCare" width="107px"></a></li>
+                    <li><a href="#"><img src="image/infonet.png" alt="" title="Báo điện tử infonet nói về BookingCare" width="109px"></a></li>
+                    <li><a href="#"><img src="image/vtv1.png" alt="" title="VTV1 - Cà phê khởi nghiệp 16-08-2018" width="86px"></a></li>
+                    <li><a href="#" class="vtcgo"><img src="image/vtcgo.png" alt="" title="VTC Go nói về BookingCare" width="76px"></a></li>
+                    <li><a href="#"><img src="image/vtv1.png" alt="" title="VTV1 - Cà phê khởi nghiệp 21-02-2018" width="86px"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="taiungdungbookingcare main-bg">
+            <div class="container">
+                <div class="content">
+                    <div class="phone-img">
+                        <img src="image/bookingcare-app-2020.png" alt="">
+                    </div>
+                    <div class="content-right">
+                        <h2>Tải ứng dụng BookingCare</h2>
+                        <p><i class="fa fa-check"></i>Đặt khám nhanh hơn</p>
+                        <p><i class="fa fa-check"></i>Nhận thông báo từ hệ thống</p>
+                        <p><i class="fa fa-check"></i>Nhận hướng dẫn đi khám chi tiết</p>
+                        <div class="download">
+                            <a href="#">
+                                <img src="image/google-play-badge.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="image/app-store-badge-black.svg" alt="">
+                            </a>
+                        </div>
+                        <a href="##" class="other-link-download">
+                            <span>Hoặc mở liên kết: </span>
+                            https://bookingcare.vn/app
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="danhchobacsivacosoyte camnang main-bg">
+            <div class="container">
+                <h2>Dành cho bác sĩ và cơ sở y tế</h2>
+                <div class="more-info">
+                    <button class="post info-btn">bài viết</button>
+                    <button class="operation info-btn">hợp tác</button>
+                    <button class="contact info-btn">liên hệ</button>
+                </div>
+                <div class="quarter-slider">
+                    <button class="slide-prev-btn fas fa-angle-left" onclick="halfSilderPrev(3)"></button>
+                    <div class="list">
+                        <ul class="ul-list">
+                            <li><a href="#" class="6diachichuaviemxoang">
+                                <img src="image/082902-bia-dia-chi-chua-viem-xoang-hn-01-01.jpg" alt="082902-bia-dia-chi-chua-viem-xoang-hn-01-01">
+                                <div class="content">
+                                    <h3>6 địa chỉ chữa Viêm xoang bằng Đông y tốt tại Hà Nội</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A eveniet, rerum fugiat tenetur nostrum dicta veniam praesentium illum dolorem perferendis consectetur deserunt accusantium enim, voluptatibus maxime magnam mollitia autem alias!</p>
+                                </div>
+                            </a></li>
+                            <li><a href="#" class="6diachichuaviemxoang">
+                                <img src="image/082902-bia-dia-chi-chua-viem-xoang-hn-01-01.jpg" alt="082902-bia-dia-chi-chua-viem-xoang-hn-01-01">
+                                <div class="content">
+                                    <h3>6 địa chỉ chữa Viêm xoang bằng Đông y tốt tại Hà Nội</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A eveniet, rerum fugiat tenetur nostrum dicta veniam praesentium illum dolorem perferendis consectetur deserunt accusantium enim, voluptatibus maxime magnam mollitia autem alias!</p>
+                                </div>
+                            </a></li>
+                            <li><a href="#" class="6diachichuaviemxoang">
+                                <img src="image/082902-bia-dia-chi-chua-viem-xoang-hn-01-01.jpg" alt="082902-bia-dia-chi-chua-viem-xoang-hn-01-01">
+                                <div class="content">
+                                    <h3>6 địa chỉ chữa Viêm xoang bằng Đông y tốt tại Hà Nội</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A eveniet, rerum fugiat tenetur nostrum dicta veniam praesentium illum dolorem perferendis consectetur deserunt accusantium enim, voluptatibus maxime magnam mollitia autem alias!</p>
+                                </div>
+                            </a></li>
+                            <li><a href="#" class="6diachichuaviemxoang">
+                                <img src="image/082902-bia-dia-chi-chua-viem-xoang-hn-01-01.jpg" alt="082902-bia-dia-chi-chua-viem-xoang-hn-01-01">
+                                <div class="content">
+                                    <h3>6 địa chỉ chữa Viêm xoang bằng Đông y tốt tại Hà Nội</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A eveniet, rerum fugiat tenetur nostrum dicta veniam praesentium illum dolorem perferendis consectetur deserunt accusantium enim, voluptatibus maxime magnam mollitia autem alias!</p>
+                                </div>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <button class="slide-next-btn fas fa-angle-right" onclick="halfSilderNext(3,2)"></button>
+                </div>
+            </div>
+        </div>
     </div>
     <footer>
         <div class="row1">
@@ -131,5 +575,51 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        var prevBtn = document.getElementsByClassName("slide-prev-btn");
+        var t = new Array(prevBtn.length);
+
+        for( var i = 0 ; i < prevBtn.length ; i++ ){
+            prevBtn[i].style.display = "none";
+            t[i] = 0;
+        }
+
+        function quarterSilderNext(i, itemSize){
+            if( t[i] < itemSize ){
+                var list = document.getElementsByClassName("ul-list");
+                list[i].style.marginLeft = "-" + 292*(++t[i]) + "px";
+            }
+            if( t[i] == itemSize ) document.getElementsByClassName("slide-next-btn")[i].style.display = "none";
+            document.getElementsByClassName("slide-prev-btn")[i].style.display = "block";
+        }
+        function quarterSilderPrev(i){
+            if( t[i] > 0 ){
+                var list = document.getElementsByClassName("ul-list");
+                list[i].style.marginLeft = "-" + 292*(--t[i]) + "px";
+            }
+            if( t[i] == 0 ) document.getElementsByClassName("slide-prev-btn")[i].style.display = "none";
+            document.getElementsByClassName("slide-next-btn")[i].style.display = "block";
+        }
+        function halfSilderNext(i, itemSize){
+            if( t[i] < itemSize ){
+                var list = document.getElementsByClassName("ul-list");
+                list[i].style.marginLeft = "-" + 602*(++t[i]) + "px";
+            }
+            if( t[i] == itemSize ) document.getElementsByClassName("slide-next-btn")[i].style.display = "none";
+            document.getElementsByClassName("slide-prev-btn")[i].style.display = "block";
+        }
+        function halfSilderPrev(i){
+            if( t[i] > 0 ){
+                var list = document.getElementsByClassName("ul-list");
+                list[i].style.marginLeft = "-" + 602*(--t[i]) + "px";
+            }
+            if( t[i] == 0 ) document.getElementsByClassName("slide-prev-btn")[i].style.display = "none";
+            document.getElementsByClassName("slide-next-btn")[i].style.display = "block";
+        }
+        
+
+
+    </script>
 </body>
 </html>

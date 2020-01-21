@@ -65,8 +65,310 @@ a{
     font-weight: lighter;
     margin: 0;
 }
-/* HEADER */
-
+/* END OF HEADER */
+.search-engine{
+    text-align: center;
+    width: 47%;
+    margin: auto;
+}
+.search-bg{
+    background-image: url(../image/search_bg.jpg);
+    background-size: cover;
+}
+.search-engine h1{
+    color: #fff;
+    text-shadow: 1px 1px 1px #333;
+    font-weight: 500;
+    padding: 65px 0 30px;
+    margin: 0;
+}
+.search-engine form{
+    margin: 0;
+    padding-bottom: 180px;
+    position: relative;
+}
+.search-engine form i{
+    position: absolute;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.search-engine form input[type=text]{
+    height: 50px;
+    background: #f7d800;
+    border: none;
+    border-radius: 25px;
+    width: 81%;
+    padding: 0 50px;
+    font-size: 15px;
+}
+.benifit{
+    text-align: center;
+}
+.benifit-bg{
+    background: #f5f5f5;
+}
+.benifit ul{
+    margin: 0;
+}
+.benifit ul li{
+    display: inline-block;
+    padding: 30px 95px;
+}
+.benifit ul li i{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #45c3d2;
+}
+.benifit ul li h6{
+    margin: 0;
+    font-size: 15px;
+    color: #333333;
+}
+.main-bg{
+    position: relative;
+}
+.main-bg:nth-child(odd){
+    background: #f5f5f5;
+    border-bottom: 3px solid #efeef5;
+}
+.main-bg h2{
+    font-size: 29px;
+    margin: 0;
+    padding: 35px 0 20px;
+}
+.main-bg .all{
+    position: absolute;
+    top: 25px;
+    right: 95px;
+    height: 51px;
+    background: #ebebeb;
+    color: #282e41;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.quarter-slider{
+    position: relative;
+    padding-bottom: 20px;
+}
+.quarter-slider .list{
+    overflow: hidden;
+}
+.quarter-slider ul{
+    padding: 0;
+    margin: 0;
+    width: 8786px;
+    list-style: none;
+    display: inline-block;
+    transition: 0.5s;
+}
+.quarter-slider ul li{
+    float: left;
+    width: 282px;
+    padding: 5px;
+}
+.quarter-slider ul li .bg{
+    background: url(../image/120331-co-xuong-khop.jpg) no-repeat;
+    background-size: 100%;
+    height: 150px;
+}
+.quarter-slider ul li a{
+    color: #111;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: #ebebeb;
+}
+.quarter-slider ul li a:hover, .main-bg .all:hover{
+    color: #fff;
+    background: #f7d800;
+}
+.quarter-slider ul li h3{
+    margin: 0;
+    padding: 12px;
+}
+.quarter-slider .slide-prev-btn, .slide-next-btn{
+    width: 44px;
+    height: 44px;
+    border: 2px solid #d7d7d7;
+    background: #fff;
+    color: #959595;
+    opacity: 0.8;
+    position: absolute;
+    top: 38%;
+    cursor: pointer;
+}
+.quarter-slider .slide-prev-btn:hover, .slide-next-btn:hover{
+    opacity: 1;
+    transition: 0.2s;
+}
+.slide-prev-btn{
+    left: -17px;   
+}
+.slide-next-btn{
+    right: -17px;
+}
+.bacsinoibat .quarter-slider ul li a{
+    text-align: center;
+    padding: 10px 5px;
+    background: #fff;
+    border: 1px solid #eee;
+}
+.bacsinoibat .quarter-slider ul li a:hover{
+    background: #ffc;
+    color: #111;
+}
+.bacsinoibat .quarter-slider ul li img{
+    width: 120px;
+    border-radius: 60px;
+}
+.bacsinoibat .quarter-slider ul li h3{
+    text-transform: none;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+.bacsinoibat .quarter-slider ul li h4{
+    margin: 0;
+    color: #555;
+    font-size: 12px;
+    font-weight: 500;
+}
+.bacsinoibat .quarter-slider ul li span{
+    color: #45c3d3;
+    text-transform: none;
+    display: block;
+    margin-top: 50px;
+    font-size: 14px;
+}
+.camnang .quarter-slider ul li{
+    width: 592px;
+}
+.camnang .quarter-slider ul li a{
+    overflow: hidden;
+    height: 152px;
+    background: none;
+}
+.camnang .quarter-slider ul li a img{
+    display: inline-block;
+    width: 49%;
+}
+.camnang .quarter-slider ul li a .content{
+    display: inline-block;
+    width: 49%;
+    padding-left: 8px;
+}
+.camnang .quarter-slider ul li a h3{
+    text-transform: none;
+    font-size: 18px;
+    padding: 0;
+    color: #45c3d2;
+    margin-bottom: 12px;
+}
+.camnang .quarter-slider ul li a p{
+    text-transform: none;
+    font-size: 15px;
+    color: #333;
+    margin: 0;
+}
+.camnang .quarter-slider ul li a:hover{
+    background: none;
+}
+.truyenthongnoivebookingcare{
+    padding-bottom: 45px;
+}
+.truyenthongnoivebookingcare .channel{
+    padding: 0;
+    float: right;
+    width: 47%;
+    text-align: center;
+    line-height: 48px;
+}
+.truyenthongnoivebookingcare .channel li{
+    display: inline-block;
+    padding: 0 5px;
+}
+.truyenthongnoivebookingcare .channel li img{
+    height: 30px;
+}
+.truyenthongnoivebookingcare .vtcnews{
+    width: 151px;
+    height: 50px;
+    background-color: #a3171e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.truyenthongnoivebookingcare .vtcgo{
+    width: 86px;
+    height: 50px;
+    background-color: #16325C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.taiungdungbookingcare{
+    padding: 40px 0;
+}
+.taiungdungbookingcare .phone-img{
+    height: 300px;
+    overflow: hidden;
+}
+.taiungdungbookingcare .content{
+    display: flex;
+    justify-content: center;
+}
+.taiungdungbookingcare .content-right{
+    padding-left: 20px;
+}
+.taiungdungbookingcare .content-right h2{
+    font-size: 24px;
+}
+.taiungdungbookingcare .content-right p{
+    color: #333;
+    margin: 10px 0;
+}
+.taiungdungbookingcare .content-right i{
+    color: #45c3d2;
+    padding-right: 8px;
+    font-size: 14px;
+}
+.taiungdungbookingcare .download{
+    padding: 15px 0;
+}
+.taiungdungbookingcare .download a{
+    display: inline-block;
+}
+.taiungdungbookingcare .download img{
+    height: 40px;
+}
+.taiungdungbookingcare .other-link-download{
+    font-style: italic;
+    color: #45c3d2;
+    text-decoration: none;
+    font-weight: bold;
+}
+.taiungdungbookingcare .other-link-download span{
+    font-weight: normal;
+}
+.more-info{
+    position: absolute;
+    top: 28px;
+    right: 95px;
+}
+.info-btn{
+    height: 40px;
+    background: #ebebeb;
+    color: #282e41;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
 /* FOOTER */
 footer .row1{
     background: #efefef;
@@ -96,7 +398,6 @@ footer .row1a p i{
 footer .row1a ul{
     list-style: none;
     padding: 0;
-    margin: 0;
 }
 footer .row1 ul li a{
     text-decoration: none;
