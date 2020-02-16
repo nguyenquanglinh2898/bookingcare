@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    background: #f0f0f0;
+}
+a{
+    display: block;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+/* HEADER */
+header{
+    background: #45c3d2;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .left{
+    width: 192px;
+    display: flex;
+}
+.header .left .brand img{
+    width: 100%;
+    height: 35px;
+}
+.show-hidden-menu-btn{
+    background: #fff;
+    border: none;
+}
+.show-hidden-menu-btn .line{
+    width: 22px;
+    height: 3px;
+    background-color: #969495;
+    display: block;
+    border-radius: 1px;
+    margin-bottom: 4px;
+}
+.header .help{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.header .help:hover{
+    text-decoration: underline;
+    cursor: auto;
+}
+.header .help i{
+    font-size: 13px;
+    background: #45c3d2;
+    color: #fff;
+}
+.header .center ul{
+    padding: 0;
+    margin-right: 138px;
+}
+.header .center ul li{
+    display: inline-block;
+}
+.header .center ul li a{
+    color: #fff;
+    font-size: 15px;
+    padding: 0 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-right: 1px solid #fff;
+}
+.header .center ul li a:hover{
+    text-decoration: underline;
+}
+.header .center ul li:last-child a{
+    border: none;
+}
+/* END OF HEADER */
+
+/* DAT LICH KHAM */
+.datlichkham{
+    max-width: 600px;
+    margin: auto;
+}
+.datlichkham form{
+    box-shadow: 0 0 20px rgba(0,0,0,.15);
+}
+.datlichkham h2{
+    font-size: 28px;
+    padding: 0px;
+    margin: 50px 0 15px;
+    color: #555;
+}
+.doctor-info{
+    border-bottom: 2px solid #eee;
+    padding: 10px 15px;
+    background: #f6f6f6;
+    overflow: auto;
+}
+.doctor-info .avatar{
+    float: left;
+    padding-right: 15px;
+}
+.doctor-info img{
+    width: 100px;
+    height: 95px;
+    border-radius: 50%;
+}
+.doctor-info .info{
+    float: left;
+}
+.doctor-info .info p{
+    color: #555;
+    margin: 0;
+    font-size: 17px;
+}
+.doctor-info .info a{
+    color: #337ab7;
+    text-decoration: none;
+    font-size: 19px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    font-weight: bold;
+}
+.doctor-info .info a:hover{
+    text-decoration: underline;
+}
+.patient-info span{
+    color: #333;
+    font-weight: bold;
+}
+.patient-info input{
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.patient-info input[type=text], input[type=number], select, textarea{
+    width: 100%;
+    padding: 10px;
+    padding-left: 35px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 15px;
+    color: #666;
+    outline: none;
+}
+.patient-info i{
+    position: absolute;
+    z-index: 1;
+    display: block;
+    padding: 12px;
+    color: #666;
+    font-size: 14px;
+}
+.patient-info .row{
+    margin: 10px 0;
+    position: relative;
+}
+.patient-info p{
+    color: #666;
+    font-size: 17px;
+}
+.patient-info button[type=submit]{
+    background: #006e6f;
+    color: #fff;
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 19px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.patient-info button[type=submit]:hover{
+    background: #f9a870;
+}
+.patient-info{
+    padding: 20px 15px;
+    background: #fff;
+}
+/* END OF DAT LICH KHAM */

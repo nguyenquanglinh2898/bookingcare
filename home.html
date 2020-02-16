@@ -56,7 +56,7 @@
                     <h1>NỀN TẢNG ĐẶT KHÁM CHUYÊN KHOA</h1>
                     <form action="">
                         <i class="fa fa-search"></i>
-                        <input type="text" name="search-key" placeholder="Tìm bệnh viện/ bác sĩ/ phòng khám/ lý do khám/ gói khám">
+                        <input type="text" name="search-key" id="search-key" placeholder="Tìm gói khám">
                     </form>
                 </div>
             </div>
@@ -406,7 +406,7 @@
         <div class="truyenthongnoivebookingcare main-bg">
             <div class="container">
                 <h2>Truyền thông nói về BookingCare</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/z3iCp7U_fZo" frameborder="0" 
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/g1J-e1f9F2I" frameborder="0" 
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <ul class="channel">
                     <li><a href="#"><img src="image/suckhoedoisong.png" alt="" title="Báo sức khỏe đời sống nói về BookingCare" width="142px"></a></li>
@@ -577,6 +577,13 @@
     </footer>
 
     <script>
+        var s = ['Tìm bệnh viện','Tìm bác sĩ','Tìm phòng khám','Tìm lý do khám', 'Tìm gói khám'];
+        var searchClueIndex = 0;
+        setInterval(function(){
+            document.getElementById('search-key').placeholder = s[searchClueIndex++];
+            if( searchClueIndex > 4 ) searchClueIndex = 0;
+        }, 2500);
+
         var prevBtn = document.getElementsByClassName("slide-prev-btn");
         var t = new Array(prevBtn.length);
 

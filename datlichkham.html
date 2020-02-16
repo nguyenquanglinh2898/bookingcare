@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LỊCH KHÁM BÁC SĨ CHUYÊN KHOA CƠ-XƯƠNG-KHỚP</title>
+    <link rel="shortcut icon" href="image/bookingcareicon.png">
+    <link rel="stylesheet" href="font-awesome/css/all.css">
+    <link rel="stylesheet" href="css/datlichkham.css">
+</head>
+<body>
+    <header>
+        <div class="header container">
+            <div class="left">           
+                <a href="#" class="brand">
+                    <img src="image/bookingcare-2020-trang.svg" alt="bookingcare_brand">
+                </a>
+            </div>
+            <div class="center">
+                <ul>
+                    <li><a href="#">trang chủ</a></li>
+                    <li><a href="#">dàng cho bệnh nhân</a></li>
+                    <li><a href="#">dành cho bác sĩ</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <a href="#" class="help">
+                    <i class="fas fa-question-circle"></i>
+                    <span>Hỗ trợ</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="datlichkham">
+        <h2>Đặt lịch khám</h2>
+        <form action="">
+            <div class="doctor-info">
+                <div class="avatar">
+                    <a href="#">
+                        <img src="image/151800292142135730131997187173031663525568184320n.jpg" alt="">
+                    </a>
+                </div>
+                <div class="info">
+                    <a href="#">Giáo sư, Tiến sĩ Trần Ngọc Ân</a>
+                    <p>07:30 - Chủ nhật - 16/02/2020</p>
+                    <p>Miễn phí đặt lịch</p>
+                    <p>Giá Khám: 300.000đ</p>
+                </div>
+            </div>
+            <div class="patient-info">
+                <div class="row">
+                    <input type="radio" name="yourself" checked><span>Đặt cho mình</span>
+                    <input type="radio" name="relatives"><span>Đặt cho người thân</span>
+                </div>
+                <div class="row">
+                    <i class="fa fa-user"></i>
+                    <input type="text" name="name" placeholder="Họ tên bệnh nhân (bắt buộc)">
+                </div>
+                <div class="row">
+                    <input type="radio" name="male" checked><span>Nam</span>
+                    <input type="radio" name="female"><span>Nữ</span>
+                </div>
+                <div class="row">
+                    <i class="fas fa-mobile-alt"></i>
+                    <input type="text" name="phone" placeholder="Số điện thoại liên hệ (bắt buộc)">
+                </div>
+                <div class="row">
+                    <i class="fas fa-inbox"></i>
+                    <input type="text" name="email" placeholder="Email">
+                </div>
+                <div class="row">
+                    <i class="fas fa-calendar-alt"></i>
+                    <input type="number" name="year-of-birth" placeholder="Năm sinh (bắt buộc)">
+                </div>
+                <div class="row">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <select name="city-province">
+                        <option value="" selected>-- Chọn Tỉnh/Thành --</option>
+                        <option value="">Hà Nội</option>
+                        <option value="">Đà Nẵng</option>
+                        <option value="">TP. Hồ Chí Minh</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input list="districts" type="text" placeholder="Quận huyện">
+                    <datalist id="districts">
+                        <option value="Ba Đình"></option>
+                        <option value="Hoàn Kiếm"></option>
+                        <option value="Đống Đa"></option>
+                    </datalist>
+                </div>
+                <div class="row">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" name="address" placeholder="Địa chỉ chi tiết">
+                </div>
+                <div class="row">
+                    <i class="fas fa-plus-circle"></i>
+                    <textarea name="reason" placeholder="Lý do khám"></textarea>
+                </div>
+                <div class="row">
+                    <input type="radio" name="payment-method" checked><span>Thanh toán sau tại cơ sở y tế</span>
+                </div>
+                <p>Quý khách vui lòng điền đầy đủ thông tin để tiết kiệm thời gian làm thủ tục khám</p>
+                <button type="submit">Xác nhận đặt lịch</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
