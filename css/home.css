@@ -71,9 +71,12 @@ a{
     width: 47%;
     margin: auto;
 }
-.search-bg{
+.search{
     background-image: url(../image/search_bg.jpg);
     background-size: cover;
+}
+.search-bg{
+    background: rgba(0, 0, 0, 0.2);
 }
 .search-engine h1{
     color: #fff;
